@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    display: flex;
+ color: white;
+    background-color: rgb(51, 73, 79);
+}
+.home {
+    width: 980px;
+    margin: 0, auto;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+nav ul{
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    flex: 1;
+    text-align: center;
+}
+nav ul li a{
+      display: block;
+    padding: 10px 0;
+    color: rgba(159, 168, 175);
+    text-decoration: none;
+}
+.esas{
+    display: flex;
+    gap: 20px;
+}
+.Menyu{
+    width: 60%;
+     margin: 20px;
+    padding: 10px;
+}
+aside{
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+}
+main {
+    width: 70%;
+}
+footer{
+    text-align: center;
+    color: azure;
+    padding: 15px;
+}
+.qaleri2{
+    display: flex;
+}
+button{
+    background-color: white;
+   
+    width: 100px;
+    height: 35px;
+   
+    border: none;
+    
+}
+.Gallery{
+    margin: 20px;
+    padding: 10px;
+    
+}
+.subscription, .qaleri, .other{
+    margin: 5px;
+   
+}
+.siyahi li a{
+    color: aliceblue;
+     margin: 10px;
+    
+}
+
+.siyahi {
+    list-style: none;
+}
+.icon{
+      color: #ffffff; 
+    margin-right: 5px;
+    font-size: 15px;
+}
+.divider {
+    width: 1px;
+    background-color: #feffff; 
+    margin: 0 10px;
+}
