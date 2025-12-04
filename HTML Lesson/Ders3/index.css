@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navhisee{
+    background-color: gray;
+    color: white;
+    display: flex;
+    gap: 50%;
+   
+}
+.logo{
+    color: white;
+
+}
+nav{
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+    color: white;
+}
+.birlesme{
+  padding: 10px;
+  margin: 10px;
+}
+.imgg{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+.hisse1{
+   width: 50%;
+}
+.asas{
+    display: flex;
+   
+}
+aside{
+   
+    margin: 20px;
+    padding: 20px;
+    width: 25%;
+border: 1px solid gray;
+
+}
+.catagories{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+aside li{
+    list-style: none;
+    
+}
+.rengli{
+   width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    gap: 20px;
+     border: 1px solid black;
+    border-radius: 2%;
+}
+.mavi{ 
+    padding: 20px;
+ 
+  background-color:gray ;
+
+}
+.mavi1{
+     padding: 20px;
+      
+    background-color: rgb(72, 255, 59);
+}
+.mavi2{
+     padding: 20px;
+    
+    background-color: rgb(8, 230, 255);
+}
+.mavi3{
+     padding: 20px;
+
+    background-color: yellow;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ull ul{
+    display: flex;
+   list-style: none;
+    gap: 10px;
+}
+.copy{
+    padding: 5px;
+}
